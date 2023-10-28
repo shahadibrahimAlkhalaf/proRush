@@ -1,0 +1,62 @@
+{
+    "name": "SonyController",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "f8a0a80e-d178-4635-9f5e-1502b850da9e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "0ccc1996-fd48-40b2-baa2-258ac6ab633f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dfcd80e7-3ea2-46e2-8f96-edeca11aeedf",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "player1",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af0648c4-75a1-447e-bd98-c4730aea1010",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player 2",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "player1",
+            "bindingGroup": "player1",
+            "devices": [
+                {
+                    "devicePath": "<DualShockGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Player 2",
+            "bindingGroup": "Player 2",
+            "devices": []
+        }
+    ]
+}
